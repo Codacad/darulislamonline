@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home'
+import 'swiper/css/bundle'
+import './css/App.css';
+import Navbar from './components/Navbar';
+
 
 function App() {
+  let lastScrole = 0;
+  window.addEventListener('scroll', () => {
+      const currentScrole = window.pageYOffset || document.documentElement.scrollTop
+      if(currentScrole > lastScrole){
+        document.querySelector('div.navbar').classList.add('hide-navbar')
+      }else{
+        document.querySelector('div.navbar').classList.remove('hide-navbar')
+      }
+        
+      lastScrole = currentScrole
+  })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home/>}></Route>
+          </Routes>
+        </Router>
     </div>
   );
 }
