@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/aluloomonline/static/css/main.f3ada8a8.css",
+    "main.js": "/aluloomonline/static/js/main.ec070641.js",
+    "static/media/img-2.jpg": "/aluloomonline/static/media/img-2.a337eba7faede98e0b01.jpg",
+    "static/media/img-1.jpg": "/aluloomonline/static/media/img-1.e6c9bb785b9ed0ccdfa9.jpg",
+    "static/media/img-3.jpg": "/aluloomonline/static/media/img-3.ba884f2dc89d8be65de9.jpg",
+    "static/media/avatar.svg": "/aluloomonline/static/media/avatar.ed0aa0799159e6695cf2e84b04c1ca0e.svg",
+    "static/media/logo.svg": "/aluloomonline/static/media/logo.1c19ffe785a498d9d044960ea0bc375b.svg",
+    "index.html": "/aluloomonline/index.html",
+    "static/media/address.svg": "/aluloomonline/static/media/address.936cf083158ece62a90c2ba548a0a10c.svg",
+    "static/media/education.svg": "/aluloomonline/static/media/education.f7a1374a10c78bed0279d09e75899978.svg",
+    "static/media/done.svg": "/aluloomonline/static/media/done.912b75155a71707930af5df459955222.svg",
+    "main.f3ada8a8.css.map": "/aluloomonline/static/css/main.f3ada8a8.css.map",
+    "main.ec070641.js.map": "/aluloomonline/static/js/main.ec070641.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3ada8a8.css",
+    "static/js/main.ec070641.js"
+  ]
+}
