@@ -170,7 +170,7 @@ div.mission{
 // Courses
 div.courses{
     padding: 5% 3%;
-    background-color: #1c1403;
+    background: linear-gradient(#392d12, #1e1502, #3d3d3d);
     div.course-contents{
         display: flex;
         gap: 20px;
@@ -180,7 +180,7 @@ div.courses{
         flex-grow: 1;
         div.course{
             min-width: 300px;
-            background-color: #231903;
+            background: linear-gradient(#231903, #3a2904);
             flex: 1;
             padding: 15px;
             border: 1px solid rgba(0,0,0,.2);
@@ -209,10 +209,10 @@ div.courses{
                     }
                     a{
                         text-decoration: none;
-                        color: #333;
+                        color: #fff;
                         display: inline-block;
                         padding: 5px 10px;
-                        background-color: #fff;
+                        background: linear-gradient(#00334e, #071f2c);
                         border-radius: 3px;
                         margin: auto;
                         width: 100%;
