@@ -153,7 +153,7 @@ div.mission div.mission-contents p {
 
 div.courses {
   padding: 5% 3%;
-  background: linear-gradient(#392d12, #1e1502, #3d3d3d);
+  background-color: #231903;
 }
 div.courses div.course-contents {
   display: flex;
