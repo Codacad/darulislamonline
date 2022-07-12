@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aluloomonline/static/css/main.c64efe5c.css",
-    "main.js": "/aluloomonline/static/js/main.0a4eee8f.js",
+    "main.js": "/aluloomonline/static/js/main.6f8becb2.js",
     "static/media/img-2.jpg": "/aluloomonline/static/media/img-2.a337eba7faede98e0b01.jpg",
     "static/media/img-1.jpg": "/aluloomonline/static/media/img-1.e6c9bb785b9ed0ccdfa9.jpg",
     "static/media/img-3.jpg": "/aluloomonline/static/media/img-3.ba884f2dc89d8be65de9.jpg",
@@ -12,10 +12,10 @@
     "static/media/education.svg": "/aluloomonline/static/media/education.f7a1374a10c78bed0279d09e75899978.svg",
     "static/media/done.svg": "/aluloomonline/static/media/done.912b75155a71707930af5df459955222.svg",
     "main.c64efe5c.css.map": "/aluloomonline/static/css/main.c64efe5c.css.map",
-    "main.0a4eee8f.js.map": "/aluloomonline/static/js/main.0a4eee8f.js.map"
+    "main.6f8becb2.js.map": "/aluloomonline/static/js/main.6f8becb2.js.map"
   },
   "entrypoints": [
     "static/css/main.c64efe5c.css",
-    "static/js/main.0a4eee8f.js"
+    "static/js/main.6f8becb2.js"
   ]
 }
