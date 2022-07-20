@@ -11,7 +11,6 @@ const Pricing = () => {
                 <div className="card">
                     <div className="header">
                         <h3>One-to-One Session</h3>
-                        <h1>&#8377;800</h1>
                     </div>
                     <div className="body">
                         <ul>
@@ -29,7 +28,6 @@ const Pricing = () => {
                 <div className="card">
                     <div className="header">
                         <h3>Group Session</h3>
-                        <h1>&#8377;500</h1>
                     </div>
                     <div className="body">
                         <ul>
