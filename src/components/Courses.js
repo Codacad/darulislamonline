@@ -23,7 +23,7 @@ const Courses = () => {
                 <div className="card">
                     <div className="title">
                         <img src={education} alt="" />
-                        <h2>Quran Tajweed</h2>
+                        <h2>Noorani Qaida with Makhraz</h2>
                     </div>
                     <div className="body">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore error cumque magnam dicta consequuntur at rerum perspiciatis minima. Ullam, voluptatem.</p>
@@ -36,7 +36,7 @@ const Courses = () => {
                 <div className="card">
                     <div className="title">
                         <img src={education} alt="" />
-                        <h2>Quran Tajweed</h2>
+                        <h2>Deeniyat</h2>
                     </div>
                     <div className="body">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore error cumque magnam dicta consequuntur at rerum perspiciatis minima. Ullam, voluptatem.</p>
@@ -49,7 +49,7 @@ const Courses = () => {
                 <div className="card">
                     <div className="title">
                         <img src={education} alt="" />
-                        <h2>Quran Tajweed</h2>
+                        <h2>Islamic Studies</h2>
                     </div>
                     <div className="body">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore error cumque magnam dicta consequuntur at rerum perspiciatis minima. Ullam, voluptatem.</p>
@@ -62,7 +62,7 @@ const Courses = () => {
                 <div className="card">
                     <div className="title">
                         <img src={education} alt="" />
-                        <h2>Quran Tajweed</h2>
+                        <h2>Quran Hifz & Nazra</h2>
                     </div>
                     <div className="body">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore error cumque magnam dicta consequuntur at rerum perspiciatis minima. Ullam, voluptatem.</p>
@@ -75,7 +75,7 @@ const Courses = () => {
                 <div className="card">
                     <div className="title">
                         <img src={education} alt="" />
-                        <h2>Quran Tajweed</h2>
+                        <h2>Tafseer Hadith & Quran</h2>
                     </div>
                     <div className="body">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore error cumque magnam dicta consequuntur at rerum perspiciatis minima. Ullam, voluptatem.</p>
@@ -88,7 +88,7 @@ const Courses = () => {
                 <div className="card">
                     <div className="title">
                         <img src={education} alt="" />
-                        <h2>Quran Tajweed</h2>
+                        <h2>Arabic</h2>
                     </div>
                     <div className="body">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore error cumque magnam dicta consequuntur at rerum perspiciatis minima. Ullam, voluptatem.</p>
@@ -101,7 +101,20 @@ const Courses = () => {
                 <div className="card">
                     <div className="title">
                         <img src={education} alt="" />
-                        <h2>Quran Tajweed</h2>
+                        <h2>Urdu</h2>
+                    </div>
+                    <div className="body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore error cumque magnam dicta consequuntur at rerum perspiciatis minima. Ullam, voluptatem.</p>
+                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                    </div>
+                    <div className="footer">#250 people enrolled for this course</div>
+                </div>
+            </div>
+            <div className="course course-eight">
+                <div className="card">
+                    <div className="title">
+                        <img src={education} alt="" />
+                        <h2>Seerah</h2>
                     </div>
                     <div className="body">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore error cumque magnam dicta consequuntur at rerum perspiciatis minima. Ullam, voluptatem.</p>

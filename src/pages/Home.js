@@ -17,6 +17,7 @@ import quran from '../images/nobackground/quran-no-background.png'
 import Button from '@mui/material/Button'
 import Quran3 from '../images/Quran/quran3.jpg'
 import Overlay from '../components/Overlay'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -34,9 +35,8 @@ const Home = () => {
           <div className="slide slide-one">
             <div className="contents">
               <div className="text">
-                <h1>Quran Tajweed</h1>
-                <h3>A precious way of reciting quran</h3>
-                <p>Now! you and your children can learn Quran with Tajweed Rules and memorize it proficiently. With scholars from recongnized institutes. Similarly, you can Learn the meaning of the verses and the reasons behind revealing them. In other words you can build the understanding of Allah’s Book and apply it into your life.</p>
+                <h1>وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًا نُّوحِىٓ إِلَيْهِمْ ۚ فَسْـَٔلُوٓاْ أَهْلَ ٱلذِّكْرِ إِن كُنتُمْ لَا تَعْلَمُونَ</h1>
+                <h3><strong>(And We sent not before you, [O Muhammad], except men to whom We revealed [the message], so ask the people of the message if you do not know. - 21:7)</strong></h3>
                 <Button variant="contained" color="success">
                   Learn More
                 </Button>
@@ -48,9 +48,8 @@ const Home = () => {
           <div className="slide slide-two">
           <div className="contents">
               <div className="text">
-                <h1>Islamic Studies</h1>
-                <h3>Let's build your mind with the knowledge of Islam</h3>
-                <p>Without any doubt, all Muslim need to learn their Islam well. Including the fundamental basics of their beautiful religion. Therefore, we have made a comprehensive program that covers  Aqidah, Fiqh, Hadith, Seerah, Tafseer and Islamic History. In addition to a Special Islamic Course for beginners.</p>
+                <h1>فَتَعَالَى اللَّهُ الْمَلِكُ الْحَقُّ ۗ وَلَا تَعْجَلْ بِالْقُرْآنِ مِن قَبْلِ أَن يُقْضَىٰ إِلَيْكَ وَحْيُهُ ۖ وَقُل رَّبِّ زِدْنِي عِلْمًا</h1>
+                <h3><strong>High above all is Allah, the King, the Truth! Be not in haste with the Qur'an before its revelation to thee is completed, but say, "O my Lord! advance me in knowledge."</strong></h3>
                 <Button variant="contained" color="success">
                   Learn More
                 </Button>
@@ -62,9 +61,8 @@ const Home = () => {
           <div className="slide slide-three">
           <div className="contents">
               <div className="text">
-                <h1>Noorani Qaida</h1>
-                <h3>This is way to start learing Arabi and Quran</h3>
-                <p>Bring your kids with Norani Qaida in the hand and get the best to start learning Quran, Hadith, and more about Islam. This is comprehensivec course for the children.</p>
+                <h1>أَمَّنْ هُوَ قَانِتٌ آنَاءَ اللَّيْلِ سَاجِدًا وَقَائِمًا يَحْذَرُ الْآخِرَةَ وَيَرْجُو رَحْمَةَ رَبِّهِ ۗ قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُولُو الْأَلْبَابِ </h1>
+                <h3><strong>Is one who worships devoutly during the hour of the night prostrating himself or standing (in adoration), who takes heed of the Hereafter, and who places his hope in the Mercy of his Lord - (like one who does not)? Say: "Are those equal, those who know and those who do not know? It is those who are endued with understanding that receive admonition.</strong></h3>
                 <Button variant="contained" color="success">
                   Learn More
                 </Button>
@@ -78,6 +76,7 @@ const Home = () => {
       <Pricing />
       <Feedbacks />
       <Overlay />
+      <Footer />
     </div>
   )
 

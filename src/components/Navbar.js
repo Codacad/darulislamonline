@@ -20,9 +20,8 @@ const Navbar = () => {
             </div>
             <div className="phone">
               <h4>Phone</h4>
-              <h2>+918979074004</h2>
-            </div>
-           
+              <h2>+919720070250</h2>
+            </div>  
           </div>
         </div>
         <nav>

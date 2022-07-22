@@ -30,6 +30,16 @@ const Overlay = () => {
                     <li><Link to='/aluloomonline/contact'>Contact</Link></li>
                     <li><Link to='/aluloomonline/about'>About</Link></li>
                 </ul>
+                <div iv className="content">
+                    <div className="email">
+                        <h4>Email</h4>
+                        <h2>contact@aluloom.in</h2>
+                    </div>
+                    <div className="phone">
+                        <h4>Phone</h4>
+                        <h2>+919720070250</h2>
+                    </div>  
+                </div>
            </div>
         </div>
     </div>
