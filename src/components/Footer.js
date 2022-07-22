@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-contents">
             <div className="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13931.468550443786!2d78.89487345!3d29.1980383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1658466138815!5m2!1sen!2sin" style={{border:"0", borderRadius:"5px"}} width="400" height="350" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13931.468550443786!2d78.89487345!3d29.1980383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1658466138815!5m2!1sen!2sin" style={{border:"0", borderRadius:"5px"}} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="quick-links">
                 <h3>Quick Links</h3>
