@@ -130,15 +130,18 @@ div.home{
 .mySwiper{
         position: relative;
         width: 100%;
-        min-height: 75vh;
+        min-height: 100vh;
+        .swiper-wrapper{
+
+        }
     .slide{
         position: relative;
         width: 100%;
-        min-height: 75vh;
+        min-height: 100vh;
         div.contents{
             display: flex;
             background-color: rgba(0, 0, 0, 0.622);
-            min-height: 75vh;
+            min-height: 100vh;
            div.text{
             padding: 10% 5%;
             h1{
@@ -205,6 +208,24 @@ div.home{
                 text-align: center;
                 align-items: center;
             }
+        }
+        div.slide{
+            div.contents{
+                div.text{
+                    h1{
+                        font-size: 150%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:776px){
+    .mySwiper{
+        min-height: 100vh;
+
+        .swiper-wrapper{
+            min-height: 100vh;
         }
     }
 }
