@@ -486,8 +486,10 @@ div.feedbacks h1 {
 }
 div.feedbacks div.feedback {
   min-width: 400px;
-  margin: 25px auto;
+  margin: 25px 50px;
   color: #333;
+  display: flex;
+  justify-content: center;
 }
 div.feedbacks div.feedback div.card {
   background-color: #fff;
