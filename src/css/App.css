@@ -30,7 +30,7 @@ div.home div.overlay-wrapper {
 }
 div.home div.overlay-wrapper div.overlay {
   width: 100%;
-  background-color: #17a43b;
+  background-color: #fff;
   height: 100%;
 }
 div.home div.overlay-wrapper div.overlay div.contents header {
@@ -66,7 +66,7 @@ div.home div.overlay-wrapper div.overlay div.contents ul li a {
   padding: 10px 15px;
   display: block;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.622);
+  color: rgba(0, 0, 0, 0.622);
 }
 div.home div.overlay-wrapper div.overlay div.contents ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
@@ -82,7 +82,7 @@ div.home div.overlay-wrapper div.overlay div.contents div.content {
   gap: 30px;
 }
 div.home div.overlay-wrapper div.overlay div.contents div.content .email h4, div.home div.overlay-wrapper div.overlay div.contents div.content .phone h4 {
-  color: rgba(255, 255, 255, 0.722);
+  color: rgba(0, 0, 0, 0.722);
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -91,10 +91,28 @@ div.home div.overlay-wrapper div.overlay div.contents div.content .email h2, div
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 150%;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 div.home div.overlay-wrapper.toggle {
   top: 0;
+}
+div.home div.overlay-wrapper {
+  display: none;
+}
+@media (max-width: 776px) {
+  div.home div.overlay-wrapper {
+    display: block;
+  }
+  div.home div.overlay-wrapper div.overlay div.contents div.content .email h4, div.home div.overlay-wrapper div.overlay div.contents div.content .phone h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  div.home div.overlay-wrapper div.overlay div.contents div.content .email h2, div.home div.overlay-wrapper div.overlay div.contents div.content .phone h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+  }
 }
 
 .mySwiper {
@@ -196,6 +214,7 @@ div.navbar header div.contact-bar {
   justify-content: space-between;
   align-items: center;
   padding: 1% 5%;
+  background-color: #eee;
 }
 div.navbar header div.contact-bar a.logo {
   width: 300px;
@@ -230,9 +249,9 @@ div.navbar header div.contact-bar div.content .email {
 }
 div.navbar header nav {
   display: flex;
-  background-color: #17a43b;
+  background-color: #fff;
   justify-content: space-between;
-  padding: 1% 5%;
+  padding: 0.5% 5%;
 }
 div.navbar header nav span {
   display: none;
@@ -244,16 +263,15 @@ div.navbar header nav ul {
   justify-content: center;
 }
 div.navbar header nav ul li a {
-  color: #fff;
+  color: #333;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   padding: 10px;
   transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-  border-radius: 3px;
   position: relative;
   text-align: center;
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 div.navbar header nav ul li a:hover::after {
   content: "";
@@ -265,7 +283,10 @@ div.navbar header nav ul li a:hover::after {
   bottom: 0;
   transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
   left: 0;
-  background-color: #fff;
+  background-color: #333;
+}
+div.navbar header nav ul li a:last-child {
+  border-right: none;
 }
 @media (max-width: 776px) {
   div.navbar header div.contact-bar {
@@ -277,7 +298,7 @@ div.navbar header nav ul li a:hover::after {
   }
   div.navbar header nav span {
     display: block;
-    color: #fff;
+    color: #333;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -292,15 +313,6 @@ div.navbar header nav ul li a:hover::after {
   }
 }
 
-div.overlay-wrapper {
-  display: none;
-}
-
-@media (max-width: 776px) {
-  div.overlay-wrapper {
-    display: block;
-  }
-}
 div.navbar.hide-navbar {
   background-color: #231903;
   top: -100px;
@@ -357,7 +369,7 @@ div.mission div.mission-contents div.content img {
     padding: 15px 0;
   }
   div.mission div.mission-contents div.content img {
-    width: 50%;
+    width: 100%;
     height: 200px;
   }
 }
@@ -370,10 +382,14 @@ div.mission div.mission-contents div.content img {
   }
   div.mission div.mission-contents div.content {
     flex-direction: column;
+    align-items: center;
     padding: 15px 0;
   }
   div.mission div.mission-contents div.content img {
-    width: 30%;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
     height: 200px;
   }
 }
@@ -470,7 +486,7 @@ div.feedbacks h1 {
 }
 div.feedbacks div.feedback {
   min-width: 400px;
-  padding: 25px;
+  margin: 25px auto;
   color: #333;
 }
 div.feedbacks div.feedback div.card {
@@ -527,118 +543,52 @@ div.feedbacks div.swiper-pagination .swiper-pagination-bullet-active {
   background-color: #fff;
 }
 
-div.pricing {
+@media (max-width: 776px) {
+  div.feedbacks {
+    padding: 5% 2%;
+  }
+}
+div.facilites {
+  padding: 5% 20%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-  padding-bottom: 50px;
-  color: #333;
-}
-div.pricing h1 {
-  font-size: 250%;
-  margin-top: 25px;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-bottom: 50px;
-  color: rgba(0, 0, 0, 0.622);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  padding-bottom: 5px;
-}
-div.pricing h1::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 25%;
-  width: 50%;
-  height: 5px;
-  background-color: rgba(255, 255, 255, 0.622);
-}
-div.pricing div.contents {
-  width: 50%;
-  display: flex;
   justify-content: center;
-  gap: 50px;
 }
-div.pricing div.contents .one-to-one, div.pricing div.contents .group {
-  background-color: #eee;
-  box-shadow: 0 1px 20px linear-gradient(#231903, #3a2904);
-  width: 100%;
-  border-radius: 5px;
+div.facilites h1 {
+  font-size: 200%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
   text-align: center;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.8);
 }
-div.pricing div.contents .one-to-one div.card, div.pricing div.contents .group div.card {
-  padding: 5%;
+div.facilites div.contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
 }
-div.pricing div.contents .one-to-one div.card .header h3, div.pricing div.contents .group div.card .header h3 {
-  font-size: 150%;
-  text-transform: uppercase;
-  font-weight: 500;
-  padding: 20px 0;
-  color: rgba(0, 0, 0, 0.7);
-}
-div.pricing div.contents .one-to-one div.card .header h1, div.pricing div.contents .group div.card .header h1 {
-  color: rgba(0, 0, 0, 0.5);
-  position: relative;
+div.facilites div.contents div.facility {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
-  padding-bottom: 5px;
+  align-items: flex-start;
+  color: rgba(0, 0, 0, 0.622);
 }
-div.pricing div.contents .one-to-one div.card .header h1::after, div.pricing div.contents .group div.card .header h1::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 50px;
-  height: 3px;
-  background-color: rgba(255, 255, 255, 0.622);
-  transform: translateX(-50%);
-}
-div.pricing div.contents .one-to-one div.card div.body ul, div.pricing div.contents .group div.card div.body ul {
-  list-style: none;
-}
-div.pricing div.contents .one-to-one div.card div.body ul li, div.pricing div.contents .group div.card div.body ul li {
-  display: flex;
-  align-items: center;
-}
-div.pricing div.contents .one-to-one div.card div.body ul li img, div.pricing div.contents .group div.card div.body ul li img {
-  width: 20px;
-  height: 20px;
+div.facilites div.contents div.facility svg {
   margin-right: 10px;
 }
-div.pricing div.contents .one-to-one div.card div.body ul li span, div.pricing div.contents .group div.card div.body ul li span {
-  font-size: 15px;
-  color: rgba(0, 0, 0, 0.4);
-}
-div.pricing div.contents .one-to-one div.card div.body a, div.pricing div.contents .group div.card div.body a {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  background: linear-gradient(#00334e, #071f2c);
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  padding: 5px 20px;
-  margin-top: 20px;
-  text-transform: uppercase;
-  width: 100%;
-}
 @media (max-width: 776px) {
-  div.pricing div.contents {
-    padding: 0 5%;
-    display: block;
-    width: 100%;
-  }
-  div.pricing div.contents .one-to-one {
-    margin-bottom: 20px;
+  div.facilites div.contents {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
   }
 }
 
+@media (max-width: 776px) {
+  div.facilites {
+    padding: 5% 5%;
+  }
+}
 div.footer {
   padding: 5% 5% 1% 5%;
   display: flex;
