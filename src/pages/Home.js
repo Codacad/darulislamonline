@@ -71,8 +71,8 @@ const Home = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <Mission />
       <Courses />
+      <Mission />
       <Pricing />
       <Feedbacks />
       <Overlay />

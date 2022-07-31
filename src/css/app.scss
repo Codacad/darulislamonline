@@ -158,7 +158,7 @@ div.home{
                 font-family: "Montserrat", sans-serif;
                 color: rgba(255, 255, 255, 0.622);
                 margin-bottom: 20px;
-                text-transform: uppercase;
+                // text-transform: uppercase;
             }
             p{
                 font-size: 18px;
@@ -362,8 +362,15 @@ div.mission{
     padding: 2% 10%;
     text-align: center;
     background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
     color: #333;
     div.mission-contents{
+        // background-color: rgba(0,0,0,.5);
         h1{
             @include heading-style
         }
@@ -374,8 +381,11 @@ div.mission{
             display: flex;
             align-items: center;
             img{
-                width: 100%;
-                height: 250px;
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 50px;
+                margin-right: 50px;
             }
         }
         @media (max-width:776px){
@@ -410,68 +420,113 @@ div.mission{
 // Courses
 div.courses{
     padding: 5% 10%;
-    background-color: #ddd;
+    width: 100%;
     div.course-contents{
-        display: flex;
-        gap: 20px;
-        flex-direction: row;
+        display: grid;
         width: 100%;
-        flex-wrap: wrap;
-        flex-grow: 1;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        gap: 30px;
         div.course{
-            min-width: 250px;
-            background-color: #fff;
-            flex: 1;
-            padding: 15px;
-            border: 1px solid rgba(0,0,0,.2);
-            border-radius: 5px;
-            // box-shadow: 0px 1px 10px rgba(0,0,0,.2);
-            transition: all .3s cubic-bezier(0.215, 0.610, 0.355, 1);
             div.card{
+                padding: 15px;
+                background-color: #eee;
+                border-radius: 5px;
                 div.title{
-                    text-align: center;
-                    padding: 15px 0;
-                    color: rgba(0, 0, 0, .8);
+                    width:100%;
+                    height: 100%;
                     img{
-                        width: 80px;
-                        height: 80px;
+                        width:100%;
+                        height: 200px;
+                        object-fit: cover;
                     }
                     h2{
-                        font-size: 150%;
-                        font-weight: 500;
+                        font-size: 100%;
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: bold;
+                        margin: 15px 0;
                     }
                 }
                 div.body{
-                    padding-bottom: 20px;
-                    p{
-                        color: rgba(0, 0, 0, 0.622);
-                        padding-bottom: 20px;
-                    }
-                    a{
-                        text-decoration: none;
-                        color: #fff;
-                        display: inline-block;
-                        padding: 5px 10px;
-                        background: linear-gradient(#00334e, #071f2c);
-                        border-radius: 3px;
-                        margin: auto;
-                        width: 100%;
-                        text-align: center;
-                        transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
-                        box-shadow: 0px 1px 2px rgba(0,0,0,.5);
-                        &:hover{
-                            background-color: rgb(215, 208, 212);
+                    div.what{
+                        span.what-text{
+                            display: flex;
+                            align-items: center;
+                            margin: 10px 0;
+                            span:nth-child(1){
+                                padding: 5px;
+                                border-radius: 50%;
+                                background-color: #17a43b;
+                                margin-right: 10px;
+                                line-height: 1.5;
+                            }
+                            span:nth-child(2){
+                                line-height: 1.5;
+                                font-size: 12px;
+                                color: rgba(0,0,0,.7);
+
+                            }
                         }
                     }
-                }
-                div.footer{
-                    border-top: 1px solid rgba(0,0,0,.1);
-                    padding-top: 15px;
-                    color: rgba(0, 0, 0, 0.4);
-                    font-size: 14px;
-                    font-weight: 400;
+                    a.enroll{
+                        text-decoration: none;
+                        display: inline-block;
+                        color: #fff;
+                        opacity: .8;
+                        font-size: 12px;
+                        font-weight: 400;
+                        font-family: 'Montserrat', sans-serif;
+                        background-color: #17a43b;
+                        padding: .4em 1em;
+                    }
                 }
             }
+        }
+        div.course-one{
+
+        }
+        div.course-two{
+
+        }
+        div.course-three{
+
+        }
+        div.course-four{
+
+        }
+        div.course-five{
+
+        }
+        div.course-six{
+
+        }
+        div.course-seven{
+
+        }
+        div.course-eight{
+
+        }
+        div.course-nine{
+
+        }
+    }
+
+    @media (max-width:1076px) {
+        div.course-contents{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media (max-width:950px) {
+        div.course-contents{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width:660px) {
+        div.course-contents{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 }
@@ -685,6 +740,7 @@ div.footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #305973;
     div.footer-contents{
         display: flex;
         gap: 30px;
@@ -698,9 +754,10 @@ div.footer{
             li{
                 a{
                     text-decoration: none;
-                    color: rgba(0, 0, 0, 0.622);
+                    color: #fff;
                     display: block;
                     margin: 10px 0;
+                    opacity: .8;
                     transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
                     &:hover{
                         text-decoration: underline;
@@ -717,7 +774,8 @@ div.footer{
             margin: 10px 0;
             display: flex;
             align-items: flex-start;
-            color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            opacity: .8;
             svg{
                 margin-right: 15px;
                 width: 10%;
@@ -734,7 +792,8 @@ div.footer{
         margin-top: 10px;
         a{
             text-decoration: none;
-            color: rgba(0, 0, 0, 0.622);
+            color: #fff;
+            opacity: .8;
             width: 30px;
             height: 30px;
             margin-right: 10px;
@@ -747,7 +806,7 @@ div.footer{
     }
     h3{
         font-size: 100%;
-        color: rgba(0, 0, 0, 0.7);
+        color: #fff;
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
         position: relative;
@@ -761,12 +820,15 @@ div.footer{
             width: 40px;
             height: 2px;
             z-index: 15;
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: #fff;
         }
     }
     div.copyright{
+        color: #fff;
+        opacity: .5;
         a{
-            color: rgba(0, 0, 0, .8);
+            color: #fff;
+            opacity: .5;
             text-decoration: none;
             transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             &:hover{

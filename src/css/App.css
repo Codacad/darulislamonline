@@ -129,7 +129,6 @@ div.home div.overlay-wrapper.toggle {
   font-family: "Montserrat", sans-serif;
   color: rgba(255, 255, 255, 0.622);
   margin-bottom: 20px;
-  text-transform: uppercase;
 }
 .mySwiper .slide div.contents div.text p {
   font-size: 18px;
@@ -312,6 +311,12 @@ div.mission {
   padding: 2% 10%;
   text-align: center;
   background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
   color: #333;
 }
 div.mission div.mission-contents h1 {
@@ -339,8 +344,12 @@ div.mission div.mission-contents div.content {
   align-items: center;
 }
 div.mission div.mission-contents div.content img {
-  width: 100%;
-  height: 250px;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+  margin-right: 50px;
 }
 @media (max-width: 776px) {
   div.mission div.mission-contents div.content {
@@ -371,67 +380,81 @@ div.mission div.mission-contents div.content img {
 
 div.courses {
   padding: 5% 10%;
-  background-color: #ddd;
+  width: 100%;
 }
 div.courses div.course-contents {
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
+  display: grid;
   width: 100%;
-  flex-wrap: wrap;
-  flex-grow: 1;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 30px;
 }
-div.courses div.course-contents div.course {
-  min-width: 250px;
-  background-color: #fff;
-  flex: 1;
+div.courses div.course-contents div.course div.card {
   padding: 15px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #eee;
   border-radius: 5px;
-  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 div.courses div.course-contents div.course div.card div.title {
-  text-align: center;
-  padding: 15px 0;
-  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
 }
 div.courses div.course-contents div.course div.card div.title img {
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 div.courses div.course-contents div.course div.card div.title h2 {
-  font-size: 150%;
-  font-weight: 500;
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 15px 0;
 }
-div.courses div.course-contents div.course div.card div.body {
-  padding-bottom: 20px;
+div.courses div.course-contents div.course div.card div.body div.what span.what-text {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
 }
-div.courses div.course-contents div.course div.card div.body p {
-  color: rgba(0, 0, 0, 0.622);
-  padding-bottom: 20px;
+div.courses div.course-contents div.course div.card div.body div.what span.what-text span:nth-child(1) {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #17a43b;
+  margin-right: 10px;
+  line-height: 1.5;
 }
-div.courses div.course-contents div.course div.card div.body a {
+div.courses div.course-contents div.course div.card div.body div.what span.what-text span:nth-child(2) {
+  line-height: 1.5;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+div.courses div.course-contents div.course div.card div.body a.enroll {
   text-decoration: none;
-  color: #fff;
   display: inline-block;
-  padding: 5px 10px;
-  background: linear-gradient(#00334e, #071f2c);
-  border-radius: 3px;
-  margin: auto;
-  width: 100%;
-  text-align: center;
-  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-}
-div.courses div.course-contents div.course div.card div.body a:hover {
-  background-color: rgb(215, 208, 212);
-}
-div.courses div.course-contents div.course div.card div.footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding-top: 15px;
-  color: rgba(0, 0, 0, 0.4);
-  font-size: 14px;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 12px;
   font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  background-color: #17a43b;
+  padding: 0.4em 1em;
+}
+@media (max-width: 1076px) {
+  div.courses div.course-contents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 950px) {
+  div.courses div.course-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 660px) {
+  div.courses div.course-contents {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 div.feedbacks {
@@ -621,6 +644,7 @@ div.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #305973;
 }
 div.footer div.footer-contents {
   display: flex;
@@ -636,9 +660,10 @@ div.footer div.quick-links ul {
 }
 div.footer div.quick-links ul li a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.622);
+  color: #fff;
   display: block;
   margin: 10px 0;
+  opacity: 0.8;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 div.footer div.quick-links ul li a:hover {
@@ -653,7 +678,8 @@ div.footer div.contact div.address, div.footer div.contact div.email, div.footer
   margin: 10px 0;
   display: flex;
   align-items: flex-start;
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  opacity: 0.8;
 }
 div.footer div.contact div.address svg, div.footer div.contact div.email svg, div.footer div.contact div.phone svg {
   margin-right: 15px;
@@ -671,7 +697,8 @@ div.footer div.social-medias div.icons {
 }
 div.footer div.social-medias div.icons a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.622);
+  color: #fff;
+  opacity: 0.8;
   width: 30px;
   height: 30px;
   margin-right: 10px;
@@ -682,7 +709,7 @@ div.footer div.social-medias div.icons a:hover {
 }
 div.footer h3 {
   font-size: 100%;
-  color: rgba(0, 0, 0, 0.7);
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   position: relative;
@@ -697,10 +724,15 @@ div.footer h3::after {
   width: 40px;
   height: 2px;
   z-index: 15;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #fff;
+}
+div.footer div.copyright {
+  color: #fff;
+  opacity: 0.5;
 }
 div.footer div.copyright a {
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  opacity: 0.5;
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
