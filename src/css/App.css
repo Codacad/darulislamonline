@@ -478,71 +478,64 @@ div.feedbacks {
   background-color: #eee;
 }
 div.feedbacks h1 {
-  margin-left: 25px;
   color: rgba(0, 0, 0, 0.622);
   font-weight: 500;
   display: inline-block;
   text-align: center;
+  margin-bottom: 20px;
 }
-div.feedbacks div.feedback {
-  min-width: 400px;
-  margin: 25px 50px;
-  color: #333;
-  display: flex;
-  justify-content: center;
+div.feedbacks div.feedback-contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
-div.feedbacks div.feedback div.card {
+div.feedbacks div.feedback-contents div.feedback {
   background-color: #fff;
-  padding: 1em 3em;
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
 }
-div.feedbacks div.feedback div.card div.header {
+div.feedbacks div.feedback-contents div.feedback div.card div.header {
   display: flex;
   align-items: center;
 }
-div.feedbacks div.feedback div.card div.header img {
+div.feedbacks div.feedback-contents div.feedback div.card div.header img.avatar {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  margin-right: 10px;
 }
-div.feedbacks div.feedback div.card div.header div.name-address {
-  margin-left: 15px;
-}
-div.feedbacks div.feedback div.card div.header div.name-address h4 {
+div.feedbacks div.feedback-contents div.feedback div.card div.header div.name-address h4 {
+  color: #444;
   font-size: 100%;
-  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5px;
 }
-div.feedbacks div.feedback div.card div.header div.name-address h6 {
-  font-size: 10px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.622);
-  display: flex;
-  align-items: center;
-}
-div.feedbacks div.feedback div.card div.header div.name-address h6 img {
+div.feedbacks div.feedback-contents div.feedback div.card div.header div.name-address h6 img {
   width: 10px;
   height: 10px;
-  margin-right: 5px;
 }
-div.feedbacks div.feedback div.card div.body p {
-  font-size: 14px;
-  font-weight: 400;
+div.feedbacks div.feedback-contents div.feedback div.card div.header div.name-address h6 span {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #666;
+}
+div.feedbacks div.feedback-contents div.feedback div.card div.body p {
+  padding: 10px 0;
   color: #333;
-  opacity: 0.5;
-  padding: 15px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
 }
-div.feedbacks div.swiper-pagination {
-  bottom: 0px;
+div.feedbacks div.feedback-contents div.feedback div.card div.body h4 {
+  color: #444;
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5px;
 }
-div.feedbacks div.swiper-pagination .swiper-pagination-bullet {
-  width: 40px;
-  height: 5px;
-  border-radius: 1px;
-  background-color: #fff;
-}
-div.feedbacks div.swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #fff;
+div.feedbacks div.feedback-contents div.feedback div.card div.body h5 {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #666;
 }
 
 @media (max-width: 776px) {

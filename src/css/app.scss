@@ -562,80 +562,72 @@ div.feedbacks{
     padding: 2% 10%;
     background-color: #eee;
     h1{
-        margin-left: 25px;
         color: rgba(0, 0, 0, 0.622);
         font-weight: 500;
         display: inline-block;
         text-align: center;
-    }
-    .mySwiper-navigation{
-        .swiper-wrapper{
-            
-        }
+        margin-bottom: 20px;
     }
 
-    div.feedback{
-        min-width: 400px;
-        margin: 25px 50px;
-        color: #333;
-        display: flex;
-        justify-content: center;
-        div.card{
+    div.feedback-contents{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        div.feedback{
             background-color: #fff;
-            padding: 1em 3em;
+            padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,.8);
-            div.header{
-                display: flex;
-                align-items: center;
-                img{
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 50%;
-                }
-                div.name-address{
-                    margin-left: 15px;
-                    h4{
-                        font-size: 100%;
-                        font-weight: 500;
+            div.card{
+                div.header{
+                    display: flex;
+                    align-items: center;
+                    img.avatar{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        margin-right: 10px;
                     }
-                    h6{
-                        font-size: 10px;
-                        font-weight: 400;
-                        color: rgba(0, 0, 0, 0.622);
-                        display: flex;
-                        align-items: center;
-                        img{
-                            width: 10px;
-                            height: 10px;
-                            margin-right: 5px;
+                    div.name-address{
+                        h4{
+                            color: #444;
+                            font-size: 100%;
+                            font-family: "Montserrat", sans-serif;
+                            margin-bottom: 5px;
+                        }
+                        h6{
+                            img{
+                                width: 10px;
+                                height: 10px;
+                            }
+                            span{
+                                font-size: 10px;
+                                font-family: "Montserrat", sans-serif;
+                                color: #666;
+                            }
                         }
                     }
                 }
-            }
-            div.body{
-                p{
-                    font-size: 14px;
-                    font-weight: 400;
-                    color: #333;
-                    opacity: .5;
-                    padding: 15px 0;
+                div.body{
+                    p{
+                        padding: 10px 0;
+                        color: #333;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 14px;
+                        line-height: 1.6;
+                    }
+                    h4{
+                        color: #444;
+                        font-size: 100%;
+                        font-family: "Montserrat", sans-serif;
+                        margin-bottom: 5px;
+                    }
+                    h5{
+                        font-size: 10px;
+                        font-family: "Montserrat", sans-serif;
+                        color: #666;
+                    }
                 }
             }
-        }
-    }
-
-    div.swiper-pagination{
-        bottom: 0px;
-        .swiper-pagination-bullet{
-            width: 40px;
-            height: 5px;
-            border-radius: 1px;
-            background-color: #fff;
-        } 
-        .swiper-pagination-bullet-active{
-            background-color: #fff;
-    
         }
     }
 }
