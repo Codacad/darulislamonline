@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aluloomonline/static/css/main.bef8b44d.css",
-    "main.js": "/aluloomonline/static/js/main.d8d83049.js",
+    "main.css": "/aluloomonline/static/css/main.095b17a0.css",
+    "main.js": "/aluloomonline/static/js/main.8dd6cd73.js",
     "static/media/quran3.jpg": "/aluloomonline/static/media/quran3.3a2cabe030532a591647.jpg",
     "static/media/deeniyat.jpg": "/aluloomonline/static/media/deeniyat.63bc4066297bc95c726d.jpg",
     "static/media/hifz.jpg": "/aluloomonline/static/media/hifz.94ca9853680898ef558d.jpg",
@@ -19,17 +19,18 @@
     "static/media/muslim-kids-no-background.png": "/aluloomonline/static/media/muslim-kids-no-background.f83d9b2fa5a7563bd3cc.png",
     "static/media/muslimkids-no-background.png": "/aluloomonline/static/media/muslimkids-no-background.a30a5fcb9aa1b1a1ba52.png",
     "static/media/muslim-girl-no-background.png": "/aluloomonline/static/media/muslim-girl-no-background.2a2fb653aaef047341eb.png",
+    "static/media/man-avatar.webp": "/aluloomonline/static/media/man-avatar.370bfc4d7b31e3d704c0.webp",
     "static/media/avatar.svg": "/aluloomonline/static/media/avatar.ed0aa0799159e6695cf2e84b04c1ca0e.svg",
     "static/media/logo-2.svg": "/aluloomonline/static/media/logo-2.0ff64d3a230eb3c81cfcce7f8908d44c.svg",
     "index.html": "/aluloomonline/index.html",
     "static/media/address.svg": "/aluloomonline/static/media/address.101441b0bb51279cdf1da49d9a804ce1.svg",
     "static/media/education.svg": "/aluloomonline/static/media/education.f7a1374a10c78bed0279d09e75899978.svg",
     "static/media/done.svg": "/aluloomonline/static/media/done.912b75155a71707930af5df459955222.svg",
-    "main.bef8b44d.css.map": "/aluloomonline/static/css/main.bef8b44d.css.map",
-    "main.d8d83049.js.map": "/aluloomonline/static/js/main.d8d83049.js.map"
+    "main.095b17a0.css.map": "/aluloomonline/static/css/main.095b17a0.css.map",
+    "main.8dd6cd73.js.map": "/aluloomonline/static/js/main.8dd6cd73.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef8b44d.css",
-    "static/js/main.d8d83049.js"
+    "static/css/main.095b17a0.css",
+    "static/js/main.8dd6cd73.js"
   ]
 }
