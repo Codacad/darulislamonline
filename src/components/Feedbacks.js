@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import Avatar from '../icons/avatar.svg'
+import ManAvatar from '../icons/man-avatar.webp'
 import Address from '../icons/address.svg'
+import { FormatQuote } from '@mui/icons-material'
 
 
 const Feedbacks = () => {
@@ -11,6 +13,9 @@ const Feedbacks = () => {
         <div className="feedback-contents">
             <div className="feedback feedback-one">
                 <div className="card">
+                    <div className="quote">
+                        <FormatQuote></FormatQuote>
+                    </div>
                     <div className="header">
                         <img className='avatar' src={Avatar} alt="" />
                         <div className="name-address">
@@ -30,8 +35,11 @@ const Feedbacks = () => {
             </div>
             <div className="feedback feedback-three">
                 <div className="card">
+                    <div className="quote">
+                        <FormatQuote></FormatQuote>
+                    </div>
                     <div className="header">
-                        <img className='avatar' src={Avatar} alt="" />
+                        <img className='avatar' src={ManAvatar} alt="" />
                         <div className="name-address">
                             <h4>Mohd Noshad Ali</h4>
                             <h6><img src={Address} alt="" /> <span>Uttar Pradesh</span></h6>
@@ -46,8 +54,11 @@ const Feedbacks = () => {
             </div>
             <div className="feedback feedback-three">
                 <div className="card">
+                    <div className="quote">
+                        <FormatQuote></FormatQuote>
+                    </div>
                     <div className="header">
-                        <img className='avatar' src={Avatar} alt="" />
+                        <img className='avatar' src={ManAvatar} alt="" />
                         <div className="name-address">
                             <h4>Mohd Noshad Ali</h4>
                             <h6><img src={Address} alt="" /> <span>Uttar Pradesh</span></h6>
@@ -62,8 +73,11 @@ const Feedbacks = () => {
             </div>
             <div className="feedback feedback-four">
                 <div className="card">
+                    <div className="quote">
+                        <FormatQuote></FormatQuote>
+                    </div>
                     <div className="header">
-                        <img className='avatar' src={Avatar} alt="" />
+                        <img className='avatar' src={ManAvatar} alt="" />
                         <div className="name-address">
                             <h4>Mohd Abuzar</h4>
                             <h6><img src={Address} alt="" /> <span>Nepal</span></h6>

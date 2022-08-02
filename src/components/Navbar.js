@@ -33,7 +33,7 @@ const Navbar = () => {
             </span>
             <ul>
                 <li><Link to='/aluloomonline'>Home</Link></li>
-                <li><Link to='/aluloomonline/#courses'>Courses</Link></li>
+                <li><a href='/aluloomonline#courses'>Courses</a></li>
                 <li><Link to='/aluloomonline/contact'>Contact</Link></li>
                 <li><Link to='/aluloomonline/about'>About</Link></li>
             </ul>
