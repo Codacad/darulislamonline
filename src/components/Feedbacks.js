@@ -28,7 +28,7 @@ const Feedbacks = () => {
                             I am really thankful to Al-Uloomonline for teaching my children beautiful things.
                             May Allah succeed them their way.
                         </p>
-                        <h4>Yasmeen Mansoori (Mother Rayyan and Aaliya)</h4>
+                        <h4>Yasmeen Mansoori (Mother of Rayyan and Aaliya)</h4>
                         <h5>(Learning Quran with Tajweed)</h5>
                     </div>
                 </div>

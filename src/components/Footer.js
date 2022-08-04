@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copyright">
-            <span>&copy; Copyright <Link to='/'>Aluloomonline</Link> 2022-2023</span>
+            <span>&copy; Copyright <Link to='/aluloomonline'>Aluloomonline</Link> 2022-2023</span>
         </div>
     </div>
   )
