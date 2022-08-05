@@ -440,7 +440,7 @@ div.pillars div.pillars-contents div.five-pillars {
   gap: 20px;
   flex-wrap: wrap;
   flex-grow: 1;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 30px;
 }
 div.pillars div.pillars-contents div.five-pillars img {

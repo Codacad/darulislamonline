@@ -493,7 +493,7 @@ div.pillars{
             gap: 20px;
             flex-wrap: wrap;
             flex-grow: 1;
-            justify-content: center;
+            justify-content: flex-start;
             margin-top: 30px;
             img{
                 width: 75px;
@@ -827,13 +827,11 @@ div.about{
 
         div.img-side{
             width: 100%;
-
             img{
                 width: 100%;
             }
         }
         div.about-text{
-
             h1{
                 font-size: 150%;
                 font-weight: 600;
