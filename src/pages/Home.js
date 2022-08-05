@@ -18,6 +18,8 @@ import Button from '@mui/material/Button'
 import Quran3 from '../images/Quran/quran3.jpg'
 import Overlay from '../components/Overlay'
 import Footer from '../components/Footer'
+import About from '../components/About'
+import Pillars from '../components/Pillars'
 
 const Home = () => {
   return (
@@ -73,8 +75,10 @@ const Home = () => {
       </Swiper>
       <Courses />
       <Mission />
+      <Pillars/>
       <Pricing />
       <Feedbacks />
+      <About/>
       <Overlay />
       <Footer />
     </div>
