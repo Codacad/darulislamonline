@@ -720,7 +720,6 @@ div.facilites div.contents div.facility svg {
 }
 div.about {
   padding: 5%;
-  min-height: 80vh;
 }
 div.about div.about-contents {
   display: flex;
