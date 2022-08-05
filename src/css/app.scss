@@ -489,11 +489,9 @@ div.pillars{
             }
         }
         div.five-pillars{
-            display: flex;
+            display: grid;
             gap: 20px;
-            flex-wrap: wrap;
-            flex-grow: 1;
-            justify-content: flex-start;
+            grid-template-columns: repeat(5, 1fr);
             margin-top: 30px;
             img{
                 width: 75px;
@@ -506,7 +504,7 @@ div.pillars{
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                min-width: 300px;
+                width: 100%;
                 border-radius: 5px;
                 img, h2, span{
                     margin: 10px 0;
@@ -514,6 +512,11 @@ div.pillars{
                 h2, span{
                     opacity: .8;
                 }
+            }
+        }
+        @media (max-width:576px){
+            div.five-pillars{
+                grid-template-columns: repeat(1, 1fr);
             }
         }
         @media (max-width:776px){
@@ -544,6 +547,9 @@ div.pillars{
                         }
                     }
                 }
+            }
+            div.five-pillars{
+                grid-template-columns: repeat(2, 1fr);
             }
         }
     }

@@ -436,11 +436,9 @@ div.pillars div.pillars-contents div.header div.whatare p span {
   color: #17a43b;
 }
 div.pillars div.pillars-contents div.five-pillars {
-  display: flex;
+  display: grid;
   gap: 20px;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  justify-content: flex-start;
+  grid-template-columns: repeat(5, 1fr);
   margin-top: 30px;
 }
 div.pillars div.pillars-contents div.five-pillars img {
@@ -454,7 +452,7 @@ div.pillars div.pillars-contents div.five-pillars .pillar {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  min-width: 300px;
+  width: 100%;
   border-radius: 5px;
 }
 div.pillars div.pillars-contents div.five-pillars .pillar img, div.pillars div.pillars-contents div.five-pillars .pillar h2, div.pillars div.pillars-contents div.five-pillars .pillar span {
@@ -462,6 +460,11 @@ div.pillars div.pillars-contents div.five-pillars .pillar img, div.pillars div.p
 }
 div.pillars div.pillars-contents div.five-pillars .pillar h2, div.pillars div.pillars-contents div.five-pillars .pillar span {
   opacity: 0.8;
+}
+@media (max-width: 576px) {
+  div.pillars div.pillars-contents div.five-pillars {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media (max-width: 776px) {
   div.pillars div.pillars-contents div.header h1 {
@@ -487,6 +490,9 @@ div.pillars div.pillars-contents div.five-pillars .pillar h2, div.pillars div.pi
   }
   div.pillars div.pillars-contents div.header div.whatare p span {
     color: #17a43b;
+  }
+  div.pillars div.pillars-contents div.five-pillars {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
