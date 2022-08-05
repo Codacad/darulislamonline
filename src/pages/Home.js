@@ -7,7 +7,7 @@ import 'swiper/css/effect-flip'
 import 'swiper/css/autoplay'
 import 'swiper/css'
 import Mission from '../components/Mission'
-import Courses from '../components/Courses'
+// import Courses from '../components/Courses'
 import Feedbacks from '../components/Feedbacks'
 import Pricing from '../components/Pricing'
 import Kids from '../images/nobackground/muslim-kids-no-background.png'
@@ -20,6 +20,7 @@ import Overlay from '../components/Overlay'
 import Footer from '../components/Footer'
 import About from '../components/About'
 import Pillars from '../components/Pillars'
+const AboutLazyLoad = React.lazy(() => import('../components/Courses'))
 
 const Home = () => {
   return (
@@ -73,7 +74,9 @@ const Home = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <Courses />
+      <React.Suspense>
+        <AboutLazyLoad />
+      </React.Suspense>
       <Mission />
       <Pillars/>
       <Pricing />
