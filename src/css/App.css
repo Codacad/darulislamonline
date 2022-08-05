@@ -454,7 +454,7 @@ div.pillars div.pillars-contents div.five-pillars .pillar {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  min-width: 350px;
+  min-width: 300px;
   border-radius: 5px;
 }
 div.pillars div.pillars-contents div.five-pillars .pillar img, div.pillars div.pillars-contents div.five-pillars .pillar h2, div.pillars div.pillars-contents div.five-pillars .pillar span {
