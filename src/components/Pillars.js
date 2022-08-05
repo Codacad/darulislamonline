@@ -14,7 +14,7 @@ const Pillars = () => {
                 <div className="whatare">
                     <h3>What are the five pillars of Islam?</h3>
                     <p>
-                        The most important Islamic practives are five pillars of Islam. <strong>The five pillars of Islam are <span>Shahada</span>, <span>Salah</span>, <span>Zakat</span>, <span>Sawm</span>, and <span>Hajj</span></strong>
+                        The most important Islamic practices are five pillars of Islam. <strong>The five pillars of Islam are <span>Shahada</span>, <span>Salah</span>, <span>Zakat</span>, <span>Sawm</span>, and <span>Hajj</span></strong>
                     </p>
                 </div>
             </div>
