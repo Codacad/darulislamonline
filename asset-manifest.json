@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aluloomonline/static/css/main.5c42551f.css",
+    "main.css": "/aluloomonline/static/css/main.1682e1c0.css",
     "main.js": "/aluloomonline/static/js/main.efd81550.js",
     "static/media/quran3.jpg": "/aluloomonline/static/media/quran3.3a2cabe030532a591647.jpg",
     "static/media/deeniyat.jpg": "/aluloomonline/static/media/deeniyat.63bc4066297bc95c726d.jpg",
@@ -33,11 +33,11 @@
     "static/media/address.svg": "/aluloomonline/static/media/address.101441b0bb51279cdf1da49d9a804ce1.svg",
     "static/media/education.svg": "/aluloomonline/static/media/education.f7a1374a10c78bed0279d09e75899978.svg",
     "static/media/done.svg": "/aluloomonline/static/media/done.912b75155a71707930af5df459955222.svg",
-    "main.5c42551f.css.map": "/aluloomonline/static/css/main.5c42551f.css.map",
+    "main.1682e1c0.css.map": "/aluloomonline/static/css/main.1682e1c0.css.map",
     "main.efd81550.js.map": "/aluloomonline/static/js/main.efd81550.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c42551f.css",
+    "static/css/main.1682e1c0.css",
     "static/js/main.efd81550.js"
   ]
 }
