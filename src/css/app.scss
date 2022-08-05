@@ -824,6 +824,14 @@ div.about{
         align-items: center;
         gap: 50px;
         justify-content: center;
+
+        div.img-side{
+            width: 100%;
+
+            img{
+                width: 100%;
+            }
+        }
         div.about-text{
 
             h1{

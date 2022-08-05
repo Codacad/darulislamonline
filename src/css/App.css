@@ -722,6 +722,12 @@ div.about div.about-contents {
   gap: 50px;
   justify-content: center;
 }
+div.about div.about-contents div.img-side {
+  width: 100%;
+}
+div.about div.about-contents div.img-side img {
+  width: 100%;
+}
 div.about div.about-contents div.about-text h1 {
   font-size: 150%;
   font-weight: 600;
