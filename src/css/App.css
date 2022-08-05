@@ -299,6 +299,7 @@ div.navbar header nav ul li a:last-child {
   div.navbar header nav {
     display: flex;
     align-items: center;
+    padding: 10px 20px;
   }
   div.navbar header nav span {
     display: block;
