@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aluloomonline/static/css/main.095b17a0.css",
-    "main.js": "/aluloomonline/static/js/main.75048a1a.js",
+    "main.css": "/aluloomonline/static/css/main.96df07ff.css",
+    "main.js": "/aluloomonline/static/js/main.fdaa54ee.js",
     "static/media/quran3.jpg": "/aluloomonline/static/media/quran3.3a2cabe030532a591647.jpg",
     "static/media/deeniyat.jpg": "/aluloomonline/static/media/deeniyat.63bc4066297bc95c726d.jpg",
     "static/media/hifz.jpg": "/aluloomonline/static/media/hifz.94ca9853680898ef558d.jpg",
@@ -14,23 +14,30 @@
     "static/media/seerah.jpg": "/aluloomonline/static/media/seerah.94b5180a1f7553732f22.jpg",
     "static/media/tafseer.jpg": "/aluloomonline/static/media/tafseer.67f4c0c8060ad1a00392.jpg",
     "static/media/tajweed.jpg": "/aluloomonline/static/media/tajweed.0ca890eb8fc2e55c5f01.jpg",
+    "static/media/pillars-background.jpg": "/aluloomonline/static/media/pillars-background.990ae6d5ff2508bbf2de.jpg",
     "static/media/quran-no-background.png": "/aluloomonline/static/media/quran-no-background.41e7b2efe928eb293fa9.png",
     "static/media/iffat.jpeg": "/aluloomonline/static/media/iffat.9c3764169047a02b9e7f.jpeg",
+    "static/media/about-side.png": "/aluloomonline/static/media/about-side.6788d6556b7c9fd2e3f3.png",
     "static/media/muslim-kids-no-background.png": "/aluloomonline/static/media/muslim-kids-no-background.f83d9b2fa5a7563bd3cc.png",
     "static/media/muslimkids-no-background.png": "/aluloomonline/static/media/muslimkids-no-background.a30a5fcb9aa1b1a1ba52.png",
     "static/media/muslim-girl-no-background.png": "/aluloomonline/static/media/muslim-girl-no-background.2a2fb653aaef047341eb.png",
     "static/media/man-avatar.webp": "/aluloomonline/static/media/man-avatar.370bfc4d7b31e3d704c0.webp",
     "static/media/avatar.svg": "/aluloomonline/static/media/avatar.ed0aa0799159e6695cf2e84b04c1ca0e.svg",
     "static/media/logo-2.svg": "/aluloomonline/static/media/logo-2.0ff64d3a230eb3c81cfcce7f8908d44c.svg",
+    "static/media/mosque.svg": "/aluloomonline/static/media/mosque.9991605874a6212c04069eb75b0aa1b7.svg",
+    "static/media/charity.svg": "/aluloomonline/static/media/charity.e2b413079ba25a3989d75238e9700b92.svg",
+    "static/media/kabah.svg": "/aluloomonline/static/media/kabah.12d90fbc9302fcb5c4c33ecae906f71e.svg",
+    "static/media/quran.svg": "/aluloomonline/static/media/quran.feabb39e9e2e4d4ec8ca2b0999e669fa.svg",
+    "static/media/fasting.svg": "/aluloomonline/static/media/fasting.8aaf5af8dcf9b120ca5872f020482dd5.svg",
     "index.html": "/aluloomonline/index.html",
     "static/media/address.svg": "/aluloomonline/static/media/address.101441b0bb51279cdf1da49d9a804ce1.svg",
     "static/media/education.svg": "/aluloomonline/static/media/education.f7a1374a10c78bed0279d09e75899978.svg",
     "static/media/done.svg": "/aluloomonline/static/media/done.912b75155a71707930af5df459955222.svg",
-    "main.095b17a0.css.map": "/aluloomonline/static/css/main.095b17a0.css.map",
-    "main.75048a1a.js.map": "/aluloomonline/static/js/main.75048a1a.js.map"
+    "main.96df07ff.css.map": "/aluloomonline/static/css/main.96df07ff.css.map",
+    "main.fdaa54ee.js.map": "/aluloomonline/static/js/main.fdaa54ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.095b17a0.css",
-    "static/js/main.75048a1a.js"
+    "static/css/main.96df07ff.css",
+    "static/js/main.fdaa54ee.js"
   ]
 }
