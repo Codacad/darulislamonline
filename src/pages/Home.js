@@ -20,6 +20,7 @@ import Overlay from '../components/Overlay'
 import Footer from '../components/Footer'
 import About from '../components/About'
 import Pillars from '../components/Pillars'
+import Welcome from '../components/Welcome'
 const AboutLazyLoad = React.lazy(() => import('../components/Courses'))
 
 const Home = () => {
@@ -74,6 +75,7 @@ const Home = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      <Welcome />
       <React.Suspense>
         <AboutLazyLoad />
       </React.Suspense>

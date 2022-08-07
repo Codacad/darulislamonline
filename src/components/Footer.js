@@ -23,11 +23,11 @@ const Footer = () => {
                 <h3>Contact</h3>
                 <div className="address">
                     <AddLocation></AddLocation>
-                    <span>244601 Faridngar, Thakurdwara, Moradabad, UP.</span>
+                    <span>246722 Asafabad, Afzalgarh,  Bijnor, UP.</span>
                 </div>
                 <div className="email">
                     <Email></Email>
-                    <span>contact@aluloomonline.in</span>
+                    <span>contact@darulislamonline.in</span>
                 </div>
                 <div className="phone">
                     <Call></Call>
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copyright">
-            <span>&copy; Copyright <Link to='/aluloomonline'>Aluloomonline</Link> 2022-2023</span>
+            <span>&copy; Copyright <Link to='/aluloomonline'>Darul Islam Online</Link> 2022-2023</span>
         </div>
     </div>
   )

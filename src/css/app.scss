@@ -559,6 +559,56 @@ div.pillars{
     }
 }
 
+// Welcome
+div.welcome{
+    padding: 5% 10%;
+    background-color: #eee;
+    div.welcome-contents{
+        header{
+            display: flex;
+            justify-content: space-between;
+            .Allah, .Prophet{
+                width: 100px;
+                height: 100px;
+            }
+            .Bismillah{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        div.text-contents{
+            padding-top:50px;
+            text-align: center;
+            h3{
+                font-family: "Montserrat", sans-serif;
+                font-size: 120%;
+                font-weight: 500;
+            }
+            h1{
+                padding: 20px 0;
+                font-weight: bold;
+                font-family: "Montserrat", sans-serif;
+                font-size: 200%;
+                color: #17a43b;
+            }
+            div.whatisislam{
+                h2{
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 120%;
+                    font-weight: bold;
+                }
+                p{
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 100%;
+                    font-weight: 500;
+                    margin-top: 20px;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+}
+
 // Courses
 div.courses{
     padding: 5% 10%;
