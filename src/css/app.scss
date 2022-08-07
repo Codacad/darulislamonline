@@ -608,6 +608,23 @@ div.welcome{
         }
     }
 }
+@media (max-width:776px){
+    div.welcome{
+        padding: 5% 5%;
+        div.welcome-contents{
+            header{
+                .Allah, .Prophet{
+                    width: 50px;
+                    height: 50px;
+                }
+                .Bismillah{
+                    width: 75px;
+                    height: 75px;
+                }
+            }
+        }
+    }
+}
 
 // Courses
 div.courses{

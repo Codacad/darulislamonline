@@ -545,6 +545,19 @@ div.welcome div.welcome-contents div.text-contents div.whatisislam p {
   line-height: 1.8;
 }
 
+@media (max-width: 776px) {
+  div.welcome {
+    padding: 5% 5%;
+  }
+  div.welcome div.welcome-contents header .Allah, div.welcome div.welcome-contents header .Prophet {
+    width: 50px;
+    height: 50px;
+  }
+  div.welcome div.welcome-contents header .Bismillah {
+    width: 75px;
+    height: 75px;
+  }
+}
 div.courses {
   padding: 5% 10%;
   width: 100%;
