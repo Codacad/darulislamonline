@@ -29,7 +29,7 @@ const Courses = () => {
                                 <span>Reading Quran with all set of rules</span>
                             </span>
                        </div>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                        <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Quran Tajweed"'>Enroll Now</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ const Courses = () => {
                                 <span>Recognizing the Arabic letters</span>
                             </span>
                        </div>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                       <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Noorani Qaida with Makhraz"'>Enroll Now</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@ const Courses = () => {
                     </div>
                     <div className="body">
                         <p></p>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                        <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Deeniyat"'>Enroll Now</a>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@ const Courses = () => {
                                 <span>Life of Prophet Mohammad ﷺ.</span>  
                             </span>                         
                        </div>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                       <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Seerat"'>Enroll Now</a>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@ const Courses = () => {
                                 <span>Memorizing the Quran</span>
                             </span>                      
                        </div>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                       <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Quran Hifz"'>Enroll Now</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ const Courses = () => {
                                 <span>Interpreting the Quran to understand the meaning of Ayah</span>
                             </span>                      
                        </div>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                       <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Tafseer Hadith & Quran"'>Enroll Now</a>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@ const Courses = () => {
                                 <span>Learning to Understand, read, write, and speak the Arabic language</span>
                             </span>                      
                        </div>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                       <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Arabic"'>Enroll Now</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ const Courses = () => {
                                 <span>Learning to Understand, read, and write the Urdu language</span>
                             </span>                      
                        </div>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                       <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Urdu"'>Enroll Now</a>
                     </div>
                 </div>
             </div>
@@ -176,7 +176,7 @@ const Courses = () => {
                                 <span>Beginner friendly</span>
                             </span>                     
                        </div>
-                        <Link className='enroll' to="/enroll">Enroll Now</Link>
+                       <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "English"'>Enroll Now</a>
                     </div>
                 </div>
             </div>

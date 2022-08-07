@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../images/logo-2.svg'
+import Logo from '../images/logo.svg'
 import { Button } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu';
 

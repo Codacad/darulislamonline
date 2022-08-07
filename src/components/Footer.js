@@ -37,18 +37,18 @@ const Footer = () => {
             <div className="social-medias">
                 <h3>Connect with us</h3>
                <div className="icons">
-                <Link to="#" className='facebook'>
+                <a href="https://www.facebook.com/profile.php?id=100083892655180" target='_blank' className='facebook'>
                         <Facebook></Facebook>
-                    </Link>
-                    <Link to="#" className='instagram'>
+                    </a>
+                    <a href="https://www.instagram.com/darulislamonline/" target='_blank' className='instagram'>
                         <Instagram></Instagram>
-                    </Link>
-                    <Link to="#" className='twitter'>
+                    </a>
+                    <a href="https://twitter.com/darulislam250" target='_blank' className='twitter'>
                         <Twitter></Twitter>
-                    </Link>
-                    <Link to="#" className='youtube'>
+                    </a>
+                    <a href="https://youtube.com/channel/UCAod07gwmnCKWnPn7gb35Qw" target='_blank' className='youtube'>
                         <YouTube></YouTube>
-                    </Link>
+                    </a>
                </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close';
 import {Link} from 'react-router-dom';
-import Logo from '../images/logo-2.svg'
+import Logo from '../images/logo.svg'
 const Overlay = () => {
     const handleClose = () => {
         document.querySelector('.overlay-wrapper').classList.remove('toggle')
