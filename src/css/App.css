@@ -133,6 +133,9 @@ div.home div.overlay-wrapper {
   display: flex;
   background-color: rgba(0, 0, 0, 0.622);
   min-height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .mySwiper .slide div.contents div.text {
   padding: 10% 5%;

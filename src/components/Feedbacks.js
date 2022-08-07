@@ -24,8 +24,8 @@ const Feedbacks = () => {
                         </div>
                     </div>
                     <div className="body">
-                        <p>I have a 7-year-old son and a 13 years old daughter. They are the students at Al-Uloomonline. There is neither Islamic School nor a Mosque around us where my children may go to learn Islam. I want to say that my children have been learning about Islam with Al-Uloomonline. Alhamdulillah, my children are now successful to read Quran and they have learned a lot about Islam. I am absolutely happy that my children have learned from Al-Uloomonline about Islam.
-                            I am really thankful to Al-Uloomonline for teaching my children beautiful things.
+                        <p>I have a 7-year-old son and a 13 years old daughter. They are the students at Darul Islam Online. There is neither Islamic School nor a Mosque around us where my children may go to learn Islam. I want to say that my children have been learning about Islam with Darul Islam Online. Alhamdulillah, my children are now successful to read Quran and they have learned a lot about Islam. I am absolutely happy that my children have learned from Darul Islam Online about Islam.
+                            I am really thankful to Darul Islam Online for teaching my children beautiful things.
                             May Allah succeed them their way.
                         </p>
                         <h4>Yasmeen Mansoori (Mother of Rayyan and Aaliya)</h4>
@@ -84,7 +84,7 @@ const Feedbacks = () => {
                         </div>
                     </div>
                     <div className="body">
-                        <p>I am Mohd Abuzar. I live in Nepal. I am a student of Al-Uloomonline. I think I have chosen a good platform to learn about Islam because the teacher of Al-Uloomonline are well educated and recognized by certified institutes. I am doing a Deeniyat course in which there are various topics of Islamic studies such as the History of the Prophet ﷺ, prayers, etc. Alhamdulillah, I am learning successfully. I am really thankful to my Mufti Sahab. May Allah give him success. </p>
+                        <p>I am Mohd Abuzar. I live in Nepal. I am a student of Darul Islam Online. I think I have chosen a good platform to learn about Islam because the teacher of Darul Islam Online are well educated and recognized by certified institutes. I am doing a Deeniyat course in which there are various topics of Islamic studies such as the History of the Prophet ﷺ, prayers, etc. Alhamdulillah, I am learning successfully. I am really thankful to my Mufti Sahab. May Allah give him success. </p>
                         <h4>Mohd Abuzar (Learning Deeniyat)</h4>
                     </div>
                 </div>

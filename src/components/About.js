@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div className="about-text">
                 <h1>About Us</h1>
-                <p>Al-Uloom is an online education institute, located in Afjalgarh, Bijnor, UP. In our Institute, we have well-educated teachers who graduated from certified Islamic Institutes, and they have a good method of teaching and character as well We have been teaching people for many years and made hundreds of people learn Quran and necessary Islamic aspects. We have students aged up to 65 years in our institute. We have served many people in an Islamic way. </p>
+                <p>Darul Islam Online is an online education institute, located in Afjalgarh, Bijnor, UP. In our Institute, we have well-educated teachers who graduated from certified Islamic Institutes, and they have a good method of teaching and character as well We have been teaching people for many years and made hundreds of people learn Quran and necessary Islamic aspects. We have students aged up to 65 years in our institute. We have served many people in an Islamic way. </p>
             </div>
         </div>
     </div>

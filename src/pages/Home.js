@@ -38,8 +38,8 @@ const Home = () => {
           <div className="slide slide-one">
             <div className="contents">
               <div className="text">
-                <h1>وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًا نُّوحِىٓ إِلَيْهِمْ ۚ فَسْـَٔلُوٓاْ أَهْلَ ٱلذِّكْرِ إِن كُنتُمْ لَا تَعْلَمُونَ</h1>
-                <h3><strong>(And We sent not before you, [O Muhammad], except men to whom We revealed [the message], so ask the people of the message if you do not know. - 21:7)</strong></h3>
+                <h1> ۚ فَسْـَٔلُوٓاْ أَهْلَ ٱلذِّكْرِ إِن كُنتُمْ لَا تَعْلَمُونَ</h1>
+                <h3><strong>(so ask the people of the message if you do not know. - 21:7)</strong></h3>
                 <Button variant="contained" color="success">
                   Learn More
                 </Button>
@@ -51,8 +51,8 @@ const Home = () => {
           <div className="slide slide-two">
           <div className="contents">
               <div className="text">
-                <h1>فَتَعَالَى اللَّهُ الْمَلِكُ الْحَقُّ ۗ وَلَا تَعْجَلْ بِالْقُرْآنِ مِن قَبْلِ أَن يُقْضَىٰ إِلَيْكَ وَحْيُهُ ۖ وَقُل رَّبِّ زِدْنِي عِلْمًا</h1>
-                <h3><strong>High above all is Allah, the King, the Truth! Be not in haste with the Qur'an before its revelation to thee is completed, but say, "O my Lord! advance me in knowledge."</strong></h3>
+                <h1>وَقُل رَّبِّ زِدْنِي عِلْمًا</h1>
+                <h3><strong>"O my Lord! advance me in knowledge."</strong></h3>
                 <Button variant="contained" color="success">
                   Learn More
                 </Button>
@@ -64,8 +64,8 @@ const Home = () => {
           <div className="slide slide-three">
           <div className="contents">
               <div className="text">
-                <h1>أَمَّنْ هُوَ قَانِتٌ آنَاءَ اللَّيْلِ سَاجِدًا وَقَائِمًا يَحْذَرُ الْآخِرَةَ وَيَرْجُو رَحْمَةَ رَبِّهِ ۗ قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُولُو الْأَلْبَابِ </h1>
-                <h3><strong>Is one who worships devoutly during the hour of the night prostrating himself or standing (in adoration), who takes heed of the Hereafter, and who places his hope in the Mercy of his Lord - (like one who does not)? Say: "Are those equal, those who know and those who do not know? It is those who are endued with understanding that receive admonition.</strong></h3>
+                <h1>قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُولُو الْأَلْبَابِ</h1>
+                <h3><strong>Say: "Are those equal, those who know and those who do not know? It is those who are endued with understanding that receive admonition.</strong></h3>
                 <Button variant="contained" color="success">
                   Learn More
                 </Button>
@@ -77,8 +77,8 @@ const Home = () => {
       <React.Suspense>
         <AboutLazyLoad />
       </React.Suspense>
-      <Mission />
       <Pillars/>
+      <Mission />
       <Pricing />
       <Feedbacks />
       <About/>

@@ -135,7 +135,7 @@ const Courses = () => {
                         <div className="what">
                             <span className='what-text'>
                                 <span></span>
-                                <span>Learning to Understand, read, write, and speek the Arabic language</span>
+                                <span>Learning to Understand, read, write, and speak the Arabic language</span>
                             </span>                      
                        </div>
                         <Link className='enroll' to="/enroll">Enroll Now</Link>
@@ -169,7 +169,7 @@ const Courses = () => {
                         <div className="what">
                             <span className='what-text'>
                                 <span></span>
-                                <span>Learning to Understand, read, write, and speek the Arabic language</span>
+                                <span>Learning to Understand, read, write, and speak the Arabic language</span>
                             </span>
                             <span className='what-text'>
                                 <span></span>
