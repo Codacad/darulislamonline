@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aluloomonline/static/css/main.4d5b51a9.css",
-    "main.js": "/aluloomonline/static/js/main.bae6fe62.js",
+    "main.css": "/aluloomonline/static/css/main.70015141.css",
+    "main.js": "/aluloomonline/static/js/main.8e5d0137.js",
     "static/js/425.2196143f.chunk.js": "/aluloomonline/static/js/425.2196143f.chunk.js",
     "static/media/quran3.jpg": "/aluloomonline/static/media/quran3.3a2cabe030532a591647.jpg",
     "static/media/deeniyat.jpg": "/aluloomonline/static/media/deeniyat.63bc4066297bc95c726d.jpg",
@@ -18,9 +18,12 @@
     "static/media/pillars-background.jpg": "/aluloomonline/static/media/pillars-background.990ae6d5ff2508bbf2de.jpg",
     "static/media/quran-no-background.png": "/aluloomonline/static/media/quran-no-background.41e7b2efe928eb293fa9.png",
     "static/media/iffat.jpeg": "/aluloomonline/static/media/iffat.9c3764169047a02b9e7f.jpeg",
+    "static/media/bismillah.png": "/aluloomonline/static/media/bismillah.322114ab98c0bc558baf.png",
     "static/media/about-side.png": "/aluloomonline/static/media/about-side.6788d6556b7c9fd2e3f3.png",
     "static/media/muslim-kids-no-background.png": "/aluloomonline/static/media/muslim-kids-no-background.f83d9b2fa5a7563bd3cc.png",
     "static/media/muslimkids-no-background.png": "/aluloomonline/static/media/muslimkids-no-background.a30a5fcb9aa1b1a1ba52.png",
+    "static/media/Allah.png": "/aluloomonline/static/media/Allah.de681e3b5dde700bbec8.png",
+    "static/media/prophet.png": "/aluloomonline/static/media/prophet.b820c56e4f8cb9ecd32f.png",
     "static/media/muslim-girl-no-background.png": "/aluloomonline/static/media/muslim-girl-no-background.2a2fb653aaef047341eb.png",
     "static/media/man-avatar.webp": "/aluloomonline/static/media/man-avatar.370bfc4d7b31e3d704c0.webp",
     "static/media/avatar.svg": "/aluloomonline/static/media/avatar.ed0aa0799159e6695cf2e84b04c1ca0e.svg",
@@ -34,12 +37,12 @@
     "static/media/address.svg": "/aluloomonline/static/media/address.101441b0bb51279cdf1da49d9a804ce1.svg",
     "static/media/education.svg": "/aluloomonline/static/media/education.f7a1374a10c78bed0279d09e75899978.svg",
     "static/media/done.svg": "/aluloomonline/static/media/done.912b75155a71707930af5df459955222.svg",
-    "main.4d5b51a9.css.map": "/aluloomonline/static/css/main.4d5b51a9.css.map",
-    "main.bae6fe62.js.map": "/aluloomonline/static/js/main.bae6fe62.js.map",
+    "main.70015141.css.map": "/aluloomonline/static/css/main.70015141.css.map",
+    "main.8e5d0137.js.map": "/aluloomonline/static/js/main.8e5d0137.js.map",
     "425.2196143f.chunk.js.map": "/aluloomonline/static/js/425.2196143f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d5b51a9.css",
-    "static/js/main.bae6fe62.js"
+    "static/css/main.70015141.css",
+    "static/js/main.8e5d0137.js"
   ]
 }
