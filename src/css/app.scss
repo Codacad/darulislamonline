@@ -65,6 +65,7 @@ div.home{
                     justify-content: space-between;
                     img{
                         height: 25px;
+                        width: 200px;
                     }
                     span{
                         display: flex;
@@ -274,8 +275,8 @@ div.navbar{
             padding: 1% 5%;
             background-color: #eee;
             a.logo{
-                width: 300px;
-                height: 30px;
+                width: 200px;
+                height: 25px;
                 transition: all .3s cubic-bezier(0.215, 0.610, 0.355, 1);
                 &:hover{
                     opacity: .8;
@@ -347,6 +348,12 @@ div.navbar{
                     a:last-child{
                         border-right: none;
                     }
+                }
+            }
+            button{
+                a{
+                    text-decoration: none;
+                    color: #fff;
                 }
             }
         }

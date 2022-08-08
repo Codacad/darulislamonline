@@ -38,7 +38,7 @@ const Navbar = () => {
                 <li><Link to='/aluloomonline/about'>About</Link></li>
             </ul>
             <Button variant='contained' color="success">
-              <a href="https://surveyheart.com/form/62eb6e5324ff9216a5543bed">Enroll</a>
+              <a href="https://surveyheart.com/form/62eb6e5324ff9216a5543bed" target="_blank">Enroll</a>
             </Button>
         </nav>
       </header>
