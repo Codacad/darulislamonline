@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aluloomonline/static/css/main.f946a4be.css",
-    "main.js": "/aluloomonline/static/js/main.041137a6.js",
+    "main.css": "/aluloomonline/static/css/main.d1ce908c.css",
+    "main.js": "/aluloomonline/static/js/main.795bffab.js",
     "static/js/425.321ffce2.chunk.js": "/aluloomonline/static/js/425.321ffce2.chunk.js",
     "static/media/quran3.jpg": "/aluloomonline/static/media/quran3.3a2cabe030532a591647.jpg",
     "static/media/deeniyat.jpg": "/aluloomonline/static/media/deeniyat.63bc4066297bc95c726d.jpg",
@@ -27,7 +27,7 @@
     "static/media/muslim-girl-no-background.png": "/aluloomonline/static/media/muslim-girl-no-background.2a2fb653aaef047341eb.png",
     "static/media/man-avatar.webp": "/aluloomonline/static/media/man-avatar.370bfc4d7b31e3d704c0.webp",
     "static/media/avatar.svg": "/aluloomonline/static/media/avatar.ed0aa0799159e6695cf2e84b04c1ca0e.svg",
-    "static/media/logo.svg": "/aluloomonline/static/media/logo.48762c9f58168e9e4ccc7bb3ef2dfabc.svg",
+    "static/media/logo.svg": "/aluloomonline/static/media/logo.84c49003ba81fa9adfd73c41f04dd9ef.svg",
     "static/media/mosque.svg": "/aluloomonline/static/media/mosque.9991605874a6212c04069eb75b0aa1b7.svg",
     "static/media/charity.svg": "/aluloomonline/static/media/charity.e2b413079ba25a3989d75238e9700b92.svg",
     "static/media/kabah.svg": "/aluloomonline/static/media/kabah.12d90fbc9302fcb5c4c33ecae906f71e.svg",
@@ -37,12 +37,12 @@
     "static/media/address.svg": "/aluloomonline/static/media/address.101441b0bb51279cdf1da49d9a804ce1.svg",
     "static/media/education.svg": "/aluloomonline/static/media/education.f7a1374a10c78bed0279d09e75899978.svg",
     "static/media/done.svg": "/aluloomonline/static/media/done.912b75155a71707930af5df459955222.svg",
-    "main.f946a4be.css.map": "/aluloomonline/static/css/main.f946a4be.css.map",
-    "main.041137a6.js.map": "/aluloomonline/static/js/main.041137a6.js.map",
+    "main.d1ce908c.css.map": "/aluloomonline/static/css/main.d1ce908c.css.map",
+    "main.795bffab.js.map": "/aluloomonline/static/js/main.795bffab.js.map",
     "425.321ffce2.chunk.js.map": "/aluloomonline/static/js/425.321ffce2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f946a4be.css",
-    "static/js/main.041137a6.js"
+    "static/css/main.d1ce908c.css",
+    "static/js/main.795bffab.js"
   ]
 }
