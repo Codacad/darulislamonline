@@ -566,6 +566,7 @@ div.welcome{
     div.welcome-contents{
         header{
             display: flex;
+            flex-direction: row-reverse;
             justify-content: space-between;
             .Allah, .Prophet{
                 width: 100px;

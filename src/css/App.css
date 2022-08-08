@@ -506,6 +506,7 @@ div.welcome {
 }
 div.welcome div.welcome-contents header {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
 }
 div.welcome div.welcome-contents header .Allah, div.welcome div.welcome-contents header .Prophet {
