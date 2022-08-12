@@ -17,12 +17,11 @@ const Overlay = () => {
                         <span>
                             <CloseIcon  onClick={handleClose}>
                             </CloseIcon>
-                            
                         </span>
                     </span>
                 </header>
                 <Button variant='contained' color="secondary">
-                    Enroll
+                    <a href="https://surveyheart.com/form/62eb6e5324ff9216a5543bed" target="_blank">Enroll</a>
                 </Button>
                 <ul>
                     <li><Link to='/aluloomonline'>Home</Link></li>
@@ -33,7 +32,7 @@ const Overlay = () => {
                 <div iv className="content">
                     <div className="email">
                         <h4>Email</h4>
-                        <h2>contact@aluloom.in</h2>
+                        <h2>contact@darulislamonline.in</h2>
                     </div>
                     <div className="phone">
                         <h4>Phone</h4>

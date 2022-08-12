@@ -65,6 +65,20 @@ const Courses = () => {
                         <h2>Deeniyat</h2>
                     </div>
                     <div className="body">
+                        <div className="what">
+                            <span className="what-text">
+                                <span></span>
+                                <span>99 Names of Allah</span>  
+                            </span> 
+                            <span className="what-text">
+                                <span></span>
+                                <span>Daily Duas</span>  
+                            </span>                         
+                            <span className="what-text">
+                                <span></span>
+                                <span>Q & A of Seerah and more</span>  
+                            </span> 
+                        </div>
                         <p></p>
                         <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Deeniyat"'>Enroll Now</a>
                     </div>
@@ -128,6 +142,32 @@ const Courses = () => {
             <div className="course course-seven">
                 <div className="card">
                     <div className="title">
+                        <img src={Deeniyat} alt="" />
+                        <h2>4 Years complete course of Alima</h2>
+                    </div>
+                    <div className="body">
+                        <div className="what">
+                            <span className="what-text">
+                                <span></span>
+                                <span>99 Names of Allah</span>  
+                            </span> 
+                            <span className="what-text">
+                                <span></span>
+                                <span>Daily Duas</span>  
+                            </span>                         
+                            <span className="what-text">
+                                <span></span>
+                                <span>Q & A of Seerah and more</span>  
+                            </span> 
+                        </div>
+                        <p></p>
+                        <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "Deeniyat"'>Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div className="course course-eight">
+                <div className="card">
+                    <div className="title">
                         <img src={Arabic} alt="" />
                         <h2>Arabic</h2>
                     </div>
@@ -142,7 +182,7 @@ const Courses = () => {
                     </div>
                 </div>
             </div>
-            <div className="course course-eight">
+            <div className="course course-nine">
                 <div className="card">
                     <div className="title">
                         <img src={Urdu} alt="" />
@@ -159,7 +199,7 @@ const Courses = () => {
                     </div>
                 </div>
             </div>
-            <div className="course course-nine">
+            <div className="course course-ten">
                 <div className="card">
                     <div className="title">
                         <img src={English} alt="" />
@@ -169,12 +209,57 @@ const Courses = () => {
                         <div className="what">
                             <span className='what-text'>
                                 <span></span>
-                                <span>Learning to Understand, read, write, and speak the Arabic language</span>
+                                <span>Learning to Understand, read, write, and speak the English language</span>
                             </span>
                             <span className='what-text'>
                                 <span></span>
                                 <span>Beginner friendly</span>
                             </span>                     
+                       </div>
+                       <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "English"'>Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div className="course course-eleven">
+                <div className="card">
+                    <div className="title">
+                        <img src={English} alt="" />
+                        <h2>Other Courses</h2>
+                    </div>
+                    <div className="body">
+                        <div className="what">
+                            <span className='what-text'>
+                                <span></span>
+                                <span>Dalil-e namaz course</span>
+                            </span>
+                            <span className='what-text'>
+                                <span></span>
+                                <span>Ramazan course</span>
+                            </span>  
+                            <span className='what-text'>
+                                <span></span>
+                                <span>Etikaf  course</span>
+                            </span>                    
+                            <span className='what-text'>
+                                <span></span>
+                                <span>Hajj course</span>
+                            </span> 
+                            <span className='what-text'>
+                                <span></span>
+                                <span>Waz-u nasihat course</span>
+                            </span> 
+                            <span className='what-text'>
+                                <span></span>
+                                <span>Qurbani ke nisab ka maiyaar Sona hai ya chandi</span>
+                            </span> 
+                            <span className='what-text'>
+                                <span></span>
+                                <span>Tabligi jamaat 6 number course</span>
+                            </span>
+                            <span className='what-text'>
+                                <span></span>
+                                <span>For more information about these course  contact  us As soon as possible</span>
+                            </span> 
                        </div>
                        <a className='enroll' href='https://wa.me/+919720070250?text=Assalamualaikum, I want to learn "English"'>Enroll Now</a>
                     </div>

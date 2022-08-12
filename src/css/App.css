@@ -61,6 +61,10 @@ div.home div.overlay-wrapper div.overlay div.contents header span {
 div.home div.overlay-wrapper div.overlay div.contents button {
   margin: 20px 0 20px 20px;
 }
+div.home div.overlay-wrapper div.overlay div.contents button a {
+  color: #fff;
+  text-decoration: none;
+}
 div.home div.overlay-wrapper div.overlay div.contents ul {
   list-style: none;
 }

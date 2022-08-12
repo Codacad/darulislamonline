@@ -60,14 +60,15 @@ const Feedbacks = () => {
                     <div className="header">
                         <img className='avatar' src={ManAvatar} alt="" />
                         <div className="name-address">
-                            <h4>Mohd Noshad Ali</h4>
+                            <h4>Mohd Danish</h4>
                             <h6><img src={Address} alt="" /> <span>Uttar Pradesh</span></h6>
                         </div>
                     </div>
                     <div className="body">
-                        <p>I am Noshad Ali. I am 49 years old. Alhamdulillah, I am learning Quran Tafseer and it's going very successful. I work during the day and study at the night. I am feeling blessed that I am learning to read Quran at this age. May Allah grant me success in what I am learning today. I think there is no age for gaining knowledge. People can learn anything at any age. May Allah guide us to live a better life according to Quran and Sunnah, - Aameen  summa Aameen
+                        <p>
+                            My name is Muhammad Danish and I am studying in a graduate college and I am 21 years old but I have not studied my religion so I also thought to learn Quran Sharif and recite it so I joined Darul Islam online. Took and started reading and today I have read Noorani Qaida with Mukhaar and urdu book and my teacher explains very well and very well and Alhamdulillah I am very happy my wish is coming true today More I pray and thank my teacher and the entire team. May Allah keep them safe and happy.
                         </p>
-                        <h4>Mohd Noshad Ali (Learning Quran Tafseer)</h4>
+                        <h4>Mohd Danish (Learning Noorani Qaida with Makhraj)</h4>
                     </div>
                 </div>
             </div>
