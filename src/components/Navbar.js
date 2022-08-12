@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='navbar'>
       <header>
         <div className="contact-bar">
-         <Link className='logo' to='/aluloomonline'><img src={Logo} alt="" /></Link>
+         <Link className='logo' to='/'><img src={Logo} alt="" /></Link>
           <div iv className="content">
             <div className="email">
               <h4>Email</h4>
@@ -29,13 +29,12 @@ const Navbar = () => {
               <MenuIcon>
                 
               </MenuIcon>
-              <Link className='logo' to='/aluloomonline'><img src={Logo} alt="" /></Link>
+              <Link className='logo' to='/'><img src={Logo} alt="" /></Link>
             </span>
             <ul>
-                <li><Link to='/aluloomonline'>Home</Link></li>
-                <li><a href='/aluloomonline#courses'>Courses</a></li>
-                <li><Link to='/aluloomonline/contact'>Contact</Link></li>
-                <li><Link to='/aluloomonline/about'>About</Link></li>
+                <li><Link to='/'>Home</Link></li>
+                <li><a href='#courses'>Courses</a></li>
+                <li><Link to='#about'>About</Link></li>
             </ul>
             <Button variant='contained' color="success">
               <a href="https://surveyheart.com/form/62eb6e5324ff9216a5543bed" target="_blank">Enroll</a>

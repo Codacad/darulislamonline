@@ -3,7 +3,7 @@ import AboutImg from "../images/Pictures/about-side.png"
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <div className="about-contents">
             <div className="img-side">
                 <img src={AboutImg} alt="" />

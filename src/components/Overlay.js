@@ -12,7 +12,7 @@ const Overlay = () => {
         <div className="overlay">
            <div className="contents">
                 <header>
-                    <Link className='logo' to='/aluloomonline'><img src={Logo} alt="" /></Link>
+                    <Link className='logo' to='/'><img src={Logo} alt="" /></Link>
                     <span>
                         <span>
                             <CloseIcon  onClick={handleClose}>
@@ -24,10 +24,9 @@ const Overlay = () => {
                     <a href="https://surveyheart.com/form/62eb6e5324ff9216a5543bed" target="_blank">Enroll</a>
                 </Button>
                 <ul>
-                    <li><Link to='/aluloomonline'>Home</Link></li>
-                    <li><Link to='/aluloomonline/#courses'>Courses</Link></li>
-                    <li><Link to='/aluloomonline/contact'>Contact</Link></li>
-                    <li><Link to='/aluloomonline/about'>About</Link></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='#courses'>Courses</Link></li>
+                    <li><Link to='#about'>About</Link></li>
                 </ul>
                 <div iv className="content">
                     <div className="email">
