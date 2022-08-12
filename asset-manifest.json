@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/darulisalmonline/static/css/main.e3d5dd7a.css",
-    "main.js": "/darulisalmonline/static/js/main.32e92962.js",
+    "main.js": "/darulisalmonline/static/js/main.abb091de.js",
     "static/js/425.bd34f9b8.chunk.js": "/darulisalmonline/static/js/425.bd34f9b8.chunk.js",
     "static/media/quran3.jpg": "/darulisalmonline/static/media/quran3.3a2cabe030532a591647.jpg",
     "static/media/deeniyat.jpg": "/darulisalmonline/static/media/deeniyat.63bc4066297bc95c726d.jpg",
@@ -38,11 +38,11 @@
     "static/media/education.svg": "/darulisalmonline/static/media/education.f7a1374a10c78bed0279d09e75899978.svg",
     "static/media/done.svg": "/darulisalmonline/static/media/done.912b75155a71707930af5df459955222.svg",
     "main.e3d5dd7a.css.map": "/darulisalmonline/static/css/main.e3d5dd7a.css.map",
-    "main.32e92962.js.map": "/darulisalmonline/static/js/main.32e92962.js.map",
+    "main.abb091de.js.map": "/darulisalmonline/static/js/main.abb091de.js.map",
     "425.bd34f9b8.chunk.js.map": "/darulisalmonline/static/js/425.bd34f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3d5dd7a.css",
-    "static/js/main.32e92962.js"
+    "static/js/main.abb091de.js"
   ]
 }
