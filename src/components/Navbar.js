@@ -34,7 +34,7 @@ const Navbar = () => {
             <ul>
                 <li><Link to='/'>Home</Link></li>
                 <li><a href='#courses'>Courses</a></li>
-                <li><Link to='#about'>About</Link></li>
+                <li><a href='#about'>About</a></li>
             </ul>
             <Button variant='contained' color="success">
               <a href="https://surveyheart.com/form/62eb6e5324ff9216a5543bed" target="_blank">Enroll</a>

@@ -12,7 +12,7 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/aluloomonline" element={<Home/>}></Route>
+            <Route path="/" element={<Home/>}></Route>
           </Routes>
           <div className="whatsapp">
             <a href="https://wa.me/+919720070250?text=Assalamualaikum" target='_blank'>
